@@ -1,0 +1,26 @@
+{
+    "name": "sasoibal/crud",
+    "description": "Laravel CRUD Package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shamim Ahammed",
+            "email": "sa.soibal@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sasoibal\\Crud\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sasoibal\\Crud\\CrudServiceProvider"
+            ]
+        }
+    }
+}
